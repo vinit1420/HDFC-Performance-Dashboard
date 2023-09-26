@@ -33,13 +33,15 @@ This project is a part of the Micro-experience program that I completed with blu
 - Then data was validated by making sure each column has the appropriate data type and all null and missing values are dealt with accordingly.
 - The required columns were created using DAX expressions to get spend_per_card, transactions_per_card and spend_per_transaction for debit and credit cards.
 - Then advanced editor was used to create custom columns to get last month's data for the above fields.
-- The first page of the dashboard contained the high-level view with latest numbers for both market share and KPIs and month-over-month growth of these metrics.
+- The first page of the dashboard contained the high-level view with latest numbers for both market share and KPIs and month-over-month growth of these metrics. (Refer Img 1)
 - This was acheived using KPI visuals and configuring trend as months and trend axis as last_months_data for the different fields.
 - The page also contained slicers for dynamically choosing the month and bank_name for which the visuals had to be created.
-- The second page of the dashboard showed the market share analysis of a selected bank with the rest of the industry in terms of revenue, transactions, volume of cards and spend_per_card.
+- The second page of the dashboard showed the market share analysis of a selected bank with the rest of the industry in terms of revenue, transactions, volume of cards and spend_per_card. (Refer Img 2)
 - This page also offered a slicer for choosing the card type and dynamic measures were created to change the visuals according to the selected card_type.
 - It also contained a visual showing the top 10 banks by card revenue.
 - The .pbix file for the dashboard has been posted in this repository.
-  
 
+**Img 1 : Performance Dashboard High Level View**![](Performance_Dashboard_Page_1.png)
+  
+**Img 2 : Performance Dashboard Market Share Analysis**![](Performance_Dashboard_Page_2.PNG)
 
